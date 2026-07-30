@@ -16,7 +16,7 @@
 - 🌱 **Continuous Learning:** Deepening expertise in advanced React rendering patterns and strict TypeScript architectures.
 - 👯 **Collaboration:** Seeking opportunities to contribute to enterprise-level open-source projects.
 - 💬 **Ask me about:** Full-stack development, UI/UX, and AI integrations.
-- 📫 **How to reach me:** **amogsiddaamarappagol@gmail.com**
+- 📫 **How to reach me:** **rajashekhar.exe@gmail.com**
 
 ---
 
