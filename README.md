@@ -36,6 +36,7 @@
 [![Production](https://img.shields.io/badge/Production-kadmultiplier.in-10b981?style=for-the-badge&logo=googlecloud&logoColor=white)](https://kadmultiplier.in)
 [![Apex](https://img.shields.io/badge/AI_Platform-apex--nine--zeta.vercel.app-7c3aed?style=for-the-badge&logo=openai&logoColor=white)](https://apex-nine-zeta.vercel.app)
 [![Microsoft Certified](https://img.shields.io/badge/Verified-Microsoft_Azure_AI-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)](https://learn.microsoft.com/api/credentials/share/en-us/RajashekharAmarappagol-6514/BDA7BFE0C929AE66?sharingId=112F97B25E58038C)
+[![IEEE GAMEATHON](https://img.shields.io/badge/Award-2nd_Place_IEEE_GAMEATHON-ffb703?style=for-the-badge&logo=ieee&logoColor=white)](https://rajashekhar-portfolio-iota.vercel.app)
 
 <br>
 
