@@ -1,11 +1,15 @@
 <div align="center">
 
-<!-- animated contribution graph: real data, boxes reveal cell by cell
+<!-- retro snake game animation: snake autonomously eats real commit cells
      (regenerated daily by .github/workflows/update-profile-art.yml) -->
 
-<h3><code>rajashekhar@github ~ $ ./contributions.sh</code></h3>
+<h3><code>rajashekhar@github ~ $ ./play-snake.sh</code></h3>
 
-<img src="./contrib-heatmap.svg" width="860" alt="Rajashekhar's GitHub contribution graph — auto-refreshed daily" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./github-contribution-grid-snake.svg">
+  <img alt="Rajashekhar's GitHub contribution grid snake animation" src="./github-contribution-grid-snake-dark.svg" width="860" />
+</picture>
 
 <br>
 <br>
@@ -23,6 +27,16 @@
 <td valign="top"><img src="./stats.svg" width="420" alt="Rajashekhar's GitHub streak and contribution stats — auto-refreshed daily" /></td>
 </tr>
 </table>
+
+<br>
+<br>
+
+<!-- 3d isometric metropolitan skyline: commit volume rendered as 3d skyscrapers
+     (regenerated daily by .github/workflows/update-profile-art.yml) -->
+
+<h3><code>rajashekhar@github ~ $ ./render-skyline.sh</code></h3>
+
+<img src="./profile-3d-contrib/profile-night-view.svg" width="860" alt="Rajashekhar's 3D Isometric Contribution Skyline — auto-refreshed daily" />
 
 <br>
 <br>
