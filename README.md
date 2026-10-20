@@ -1,25 +1,13 @@
 <div align="center">
 
-<!-- ================================================================= -->
-<!-- RETRO SNAKE ARCADE GAME (TOP HERO)                                -->
-<!-- Full width 860px with zero internal padding or timeline gap       -->
-<!-- ================================================================= -->
-
-<h3><code>rajashekhar@github ~ $ ./play-snake.sh</code></h3>
-
+<p align="center"><b><code>rajashekhar@github ~ $ ./play-snake.sh</code></b></p>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./github-contribution-grid-snake.svg">
   <img alt="Rajashekhar's GitHub contribution grid snake animation" src="./github-contribution-grid-snake-dark.svg" width="860" />
 </picture>
 
-<!-- ================================================================= -->
-<!-- WHOAMI: ASCII PORTRAIT + LIVE STREAK / STATS CARD                 -->
-<!-- Full 420px width each (840px total) for maximum crispness         -->
-<!-- ================================================================= -->
-
-<h3><code>rajashekhar@github ~ $ whoami</code></h3>
-
+<p align="center"><b><code>rajashekhar@github ~ $ whoami</code></b></p>
 <table>
 <tr>
 <td valign="top"><img src="./rajashekhar-ascii.svg" width="420" alt="Rajashekhar Amarappagol — ASCII portrait" /></td>
@@ -29,22 +17,12 @@
 
 <br>
 
-<!-- ================================================================= -->
-<!-- 3D ISOMETRIC METROPOLITAN SKYLINE                                 -->
-<!-- Real daily commit volume rendered as 3D neon skyscrapers          -->
-<!-- ================================================================= -->
-
-<h3><code>rajashekhar@github ~ $ ./render-skyline.sh</code></h3>
-
+<p align="center"><b><code>rajashekhar@github ~ $ ./render-skyline.sh</code></b></p>
 <img src="./profile-3d-contrib/profile-night-view.svg" width="860" alt="Rajashekhar's 3D Isometric Contribution Skyline — auto-refreshed daily" />
 
 <br>
 
-<!-- ================================================================= -->
-<!-- VERIFIED BADGES & PRODUCTION PLATFORMS                            -->
-<!-- ================================================================= -->
-
-<h3><code>rajashekhar@github ~ $ ./links.sh</code></h3>
+<p align="center"><b><code>rajashekhar@github ~ $ ./links.sh</code></b></p>
 
 <p><b>Full-Stack Developer · Microsoft Certified · AI Builder</b></p>
 
