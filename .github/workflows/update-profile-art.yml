@@ -47,6 +47,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Optimize & Trim Snake SVG
+        run: python scripts/trim_snake_svg.py
+
       - name: Generate 3D Contribution Skyline
         uses: yoshi389111/github-profile-3d-contrib@latest
         env:

@@ -8,11 +8,8 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./github-contribution-grid-snake.svg">
-  <img alt="Rajashekhar's GitHub contribution grid snake animation" src="./github-contribution-grid-snake-dark.svg" width="860" />
+  <img alt="Rajashekhar's GitHub contribution grid snake animation" src="./github-contribution-grid-snake-dark.svg" width="650" />
 </picture>
-
-<br>
-<br>
 
 <!-- ascii portrait (left) + streak/numbers card (right). both svgs are
      840x880 so equal widths give equal heights.
@@ -23,23 +20,17 @@
 
 <table>
 <tr>
-<td valign="top"><img src="./rajashekhar-ascii.svg" width="420" alt="Rajashekhar Amarappagol — ASCII portrait" /></td>
-<td valign="top"><img src="./stats.svg" width="420" alt="Rajashekhar's GitHub streak and contribution stats — auto-refreshed daily" /></td>
+<td valign="top"><img src="./rajashekhar-ascii.svg" width="325" alt="Rajashekhar Amarappagol — ASCII portrait" /></td>
+<td valign="top"><img src="./stats.svg" width="325" alt="Rajashekhar's GitHub streak and contribution stats — auto-refreshed daily" /></td>
 </tr>
 </table>
-
-<br>
-<br>
 
 <!-- 3d isometric metropolitan skyline: commit volume rendered as 3d skyscrapers
      (regenerated daily by .github/workflows/update-profile-art.yml) -->
 
 <h3><code>rajashekhar@github ~ $ ./render-skyline.sh</code></h3>
 
-<img src="./profile-3d-contrib/profile-night-view.svg" width="860" alt="Rajashekhar's 3D Isometric Contribution Skyline — auto-refreshed daily" />
-
-<br>
-<br>
+<img src="./profile-3d-contrib/profile-night-view.svg" width="650" alt="Rajashekhar's 3D Isometric Contribution Skyline — auto-refreshed daily" />
 
 <h3><code>rajashekhar@github ~ $ ./links.sh</code></h3>
 
@@ -51,7 +42,5 @@
 [![Apex](https://img.shields.io/badge/AI_Platform-apex--nine--zeta.vercel.app-7c3aed?style=for-the-badge&logo=openai&logoColor=white)](https://apex-nine-zeta.vercel.app)
 [![Microsoft Certified](https://img.shields.io/badge/Verified-Microsoft_Azure_AI-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)](https://learn.microsoft.com/api/credentials/share/en-us/RajashekharAmarappagol-6514/BDA7BFE0C929AE66?sharingId=112F97B25E58038C)
 [![IEEE GAMEATHON](https://img.shields.io/badge/Award-2nd_Place_IEEE_GAMEATHON-ffb703?style=for-the-badge&logo=ieee&logoColor=white)](https://rajashekhar.pages.dev)
-
-<br>
 
 </div>
