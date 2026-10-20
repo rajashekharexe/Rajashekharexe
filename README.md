@@ -1,8 +1,21 @@
 <div align="center">
 
 <!-- ================================================================= -->
-<!-- HERO SECTION: ASCII PORTRAIT + LIVE STREAK / STATS CARD           -->
-<!-- Both SVGs are 840x880 rendered at 420px width for 1:1 crispness  -->
+<!-- RETRO SNAKE ARCADE GAME (TOP HERO)                                -->
+<!-- Full width 860px with zero internal padding or timeline gap       -->
+<!-- ================================================================= -->
+
+<h3><code>rajashekhar@github ~ $ ./play-snake.sh</code></h3>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./github-contribution-grid-snake.svg">
+  <img alt="Rajashekhar's GitHub contribution grid snake animation" src="./github-contribution-grid-snake-dark.svg" width="860" />
+</picture>
+
+<!-- ================================================================= -->
+<!-- WHOAMI: ASCII PORTRAIT + LIVE STREAK / STATS CARD                 -->
+<!-- Full 420px width each (840px total) for maximum crispness         -->
 <!-- ================================================================= -->
 
 <h3><code>rajashekhar@github ~ $ whoami</code></h3>
@@ -24,21 +37,6 @@
 <h3><code>rajashekhar@github ~ $ ./render-skyline.sh</code></h3>
 
 <img src="./profile-3d-contrib/profile-night-view.svg" width="860" alt="Rajashekhar's 3D Isometric Contribution Skyline — auto-refreshed daily" />
-
-<br>
-
-<!-- ================================================================= -->
-<!-- RETRO SNAKE ARCADE GAME                                           -->
-<!-- Autonomous retro snake eating real commit cells                   -->
-<!-- ================================================================= -->
-
-<h3><code>rajashekhar@github ~ $ ./play-snake.sh</code></h3>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./github-contribution-grid-snake.svg">
-  <img alt="Rajashekhar's GitHub contribution grid snake animation" src="./github-contribution-grid-snake-dark.svg" width="860" />
-</picture>
 
 <br>
 
