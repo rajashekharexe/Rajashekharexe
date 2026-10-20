@@ -9,28 +9,22 @@ def trim_snake(svg_path: Path):
     
     content = svg_path.read_text(encoding="utf-8")
     
-    # 1. Vibrant neon green snake
-    content = content.replace("--cs:purple;", "--cs:#39d353;")
-    content = content.replace("--cs: purple;", "--cs: #39d353;")
+    # 1. High-contrast electric cyan snake so it stands out against dark grid and green dots
+    content = re.sub(r'--cs:[^;]+;', '--cs:#00f0ff;', content)
     
-    # 2. Completely delete all unneeded progress bar rects (<rect class="u...)
-    content = re.sub(r'<rect class="u[^"]*"[^>]+>', '', content)
-    
-    # 3. Clean up unneeded .u CSS rules & keyframes
-    content = re.sub(r'\.u\{[^}]*\}', '', content)
-    content = re.sub(r'\.u\.[^{]+\{[^}]*\}', '', content)
-    content = re.sub(r'@keyframes u\d+\{[^}]*\}', '', content)
-    
-    # 4. Ultra-tight viewBox:
-    # Top is -16 (exact top snake reach), height 142 (exact bottom snake reach at y=112 + 14.4px body - no void)
+    # 2. Tighten viewBox: top starts at -16, height 144 (eliminates top/bottom dead margins)
     content = re.sub(
         r'<svg\s+viewBox="[^"]+"\s+width="[^"]+"\s+height="[^"]+"',
-        '<svg viewBox="-16 -16 880 142" width="880" height="142"',
+        '<svg viewBox="-16 -16 880 144" width="880" height="144"',
         content
     )
     
+    # 3. Safely hide unneeded progress bar line without breaking any keyframes
+    if ".u{" in content and "display:none;" not in content:
+        content = content.replace(".u{", ".u{display:none;")
+        
     svg_path.write_text(content, encoding="utf-8")
-    print(f"Ultra-trimmed {svg_path.name}: eliminated all internal dead space")
+    print(f"Cleanly trimmed {svg_path.name}: high-contrast snake, zero dead margins")
 
 if __name__ == "__main__":
     files = sys.argv[1:] if len(sys.argv) > 1 else [

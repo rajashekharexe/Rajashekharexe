@@ -1,12 +1,10 @@
 <div align="center">
-
 <p align="center"><b><code>rajashekhar@github ~ $ ./play-snake.sh</code></b></p>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./github-contribution-grid-snake.svg">
   <img alt="Rajashekhar's GitHub contribution grid snake animation" src="./github-contribution-grid-snake-dark.svg" width="860" />
 </picture>
-
 <p align="center"><b><code>rajashekhar@github ~ $ whoami</code></b></p>
 <table>
 <tr>
