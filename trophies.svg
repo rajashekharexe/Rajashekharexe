@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 220" width="100%" height="100%">
+  <defs>
+    <!-- Dark glass gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#05070a" />
+    </linearGradient>
+
+    <!-- Card 1: Gold / Amber Gradient -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#b45309" stop-opacity="0.04" />
+    </linearGradient>
+    <linearGradient id="goldBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#d97706" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Card 2: Emerald / Hackathon Gradient -->
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#047857" stop-opacity="0.04" />
+    </linearGradient>
+    <linearGradient id="emeraldBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#059669" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Card 3: Azure / Microsoft Gradient -->
+    <linearGradient id="azureGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#0369a1" stop-opacity="0.04" />
+    </linearGradient>
+    <linearGradient id="azureBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Shimmer Glow Animation -->
+    <linearGradient id="shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+      <animate attributeName="x1" from="-100%" to="200%" dur="4s" repeatCount="indefinite" />
+      <animate attributeName="x2" from="0%" to="300%" dur="4s" repeatCount="indefinite" />
+    </linearGradient>
+
+    <filter id="glowGold" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .card { transition: all 0.3s ease; }
+    .card:hover { transform: translateY(-3px); }
+  </style>
+
+  <!-- Canvas Background -->
+  <rect width="860" height="220" rx="16" fill="url(#bgGrad)" stroke="#30363d" stroke-width="1" />
+
+  <!-- ==================== CARD 1: IEEE GAMEATHON ==================== -->
+  <g transform="translate(16, 16)">
+    <!-- Card Base -->
+    <rect width="264" height="188" rx="12" fill="url(#goldGrad)" stroke="url(#goldBorder)" stroke-width="1.5" />
+    <rect width="264" height="188" rx="12" fill="url(#shimmer)" pointer-events="none" />
+
+    <!-- Top Badge Header -->
+    <g transform="translate(16, 22)">
+      <rect width="90" height="22" rx="11" fill="#f59e0b" fill-opacity="0.2" stroke="#fbbf24" stroke-width="1" />
+      <circle cx="12" cy="11" r="3.5" fill="#fbbf24" />
+      <text x="24" y="15" fill="#fef3c7" class="mono" font-size="10" font-weight="700" letter-spacing="1">HONOR</text>
+    </g>
+
+    <!-- Medal Icon -->
+    <text x="228" y="38" font-size="28" text-anchor="middle">🥇</text>
+
+    <!-- Award Title -->
+    <text x="16" y="80" fill="#fbbf24" class="sans" font-size="19" font-weight="800" letter-spacing="-0.3">2nd Place Winner</text>
+    <text x="16" y="102" fill="#ffffff" class="sans" font-size="14" font-weight="600">IEEE GAMEATHON</text>
+
+    <!-- Description -->
+    <text x="16" y="128" fill="#9ca3af" class="sans" font-size="11" font-weight="400">Competitive Game Architecture</text>
+    <text x="16" y="144" fill="#9ca3af" class="sans" font-size="11" font-weight="400">&amp; Interactive Simulation</text>
+
+    <!-- Footer Tag -->
+    <g transform="translate(16, 156)">
+      <text x="0" y="14" fill="#d97706" class="mono" font-size="10" font-weight="600">✦ IEEE Computer Society</text>
+    </g>
+  </g>
+
+  <!-- ==================== CARD 2: IEEE AI ARENA 2.0 ==================== -->
+  <g transform="translate(298, 16)">
+    <!-- Card Base -->
+    <rect width="264" height="188" rx="12" fill="url(#emeraldGrad)" stroke="url(#emeraldBorder)" stroke-width="1.5" />
+    <rect width="264" height="188" rx="12" fill="url(#shimmer)" pointer-events="none" />
+
+    <!-- Top Badge Header -->
+    <g transform="translate(16, 22)">
+      <rect width="102" height="22" rx="11" fill="#10b981" fill-opacity="0.2" stroke="#34d399" stroke-width="1" />
+      <circle cx="12" cy="11" r="3.5" fill="#34d399" />
+      <text x="24" y="15" fill="#d1fae5" class="mono" font-size="10" font-weight="700" letter-spacing="1">TOP 6%</text>
+    </g>
+
+    <!-- Trophy Icon -->
+    <text x="228" y="38" font-size="28" text-anchor="middle">🏆</text>
+
+    <!-- Award Title -->
+    <text x="16" y="80" fill="#34d399" class="sans" font-size="19" font-weight="800" letter-spacing="-0.3">4th Place / 69 Teams</text>
+    <text x="16" y="102" fill="#ffffff" class="sans" font-size="14" font-weight="600">IEEE AI Arena 2.0</text>
+
+    <!-- Description -->
+    <text x="16" y="128" fill="#9ca3af" class="sans" font-size="11" font-weight="400">Full-Stack AI Educational Platform</text>
+    <text x="16" y="144" fill="#9ca3af" class="sans" font-size="11" font-weight="400">Built under Hackathon constraints</text>
+
+    <!-- Footer Tag -->
+    <g transform="translate(16, 156)">
+      <text x="0" y="14" fill="#059669" class="mono" font-size="10" font-weight="600">✦ National Hackathon</text>
+    </g>
+  </g>
+
+  <!-- ==================== CARD 3: MICROSOFT CERTIFIED ==================== -->
+  <g transform="translate(580, 16)">
+    <!-- Card Base -->
+    <rect width="264" height="188" rx="12" fill="url(#azureGrad)" stroke="url(#azureBorder)" stroke-width="1.5" />
+    <rect width="264" height="188" rx="12" fill="url(#shimmer)" pointer-events="none" />
+
+    <!-- Top Badge Header -->
+    <g transform="translate(16, 22)">
+      <rect width="108" height="22" rx="11" fill="#0284c7" fill-opacity="0.2" stroke="#38bdf8" stroke-width="1" />
+      <circle cx="12" cy="11" r="3.5" fill="#38bdf8" />
+      <text x="24" y="15" fill="#e0f2fe" class="mono" font-size="10" font-weight="700" letter-spacing="1">VERIFIED</text>
+    </g>
+
+    <!-- Azure Icon -->
+    <text x="228" y="38" font-size="26" text-anchor="middle">📜</text>
+
+    <!-- Award Title -->
+    <text x="16" y="80" fill="#38bdf8" class="sans" font-size="19" font-weight="800" letter-spacing="-0.3">Microsoft Certified</text>
+    <text x="16" y="102" fill="#ffffff" class="sans" font-size="14" font-weight="600">Azure AI Developer</text>
+
+    <!-- Description -->
+    <text x="16" y="128" fill="#9ca3af" class="sans" font-size="11" font-weight="400">Apps &amp; AI Agents Associate</text>
+    <text x="16" y="144" fill="#9ca3af" class="sans" font-size="10" class="mono">ID: BDA7BFE0C929AE66</text>
+
+    <!-- Footer Tag -->
+    <g transform="translate(16, 156)">
+      <text x="0" y="14" fill="#0284c7" class="mono" font-size="10" font-weight="600">✦ Microsoft Learn Verified</text>
+    </g>
+  </g>
+</svg>

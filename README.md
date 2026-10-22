@@ -15,8 +15,25 @@
 
 <br>
 
+<p align="center"><b><code>rajashekhar@github ~ $ ./stack.sh</code></b></p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,python,nodejs,express,mongodb,postgres,firebase,git,docker,vercel&theme=dark" alt="Rajashekhar's Tech Stack" />
+</p>
+
+<br>
+
 <p align="center"><b><code>rajashekhar@github ~ $ ./render-skyline.sh</code></b></p>
 <img src="./profile-3d-contrib/profile-night-view.svg" width="860" alt="Rajashekhar's 3D Isometric Contribution Skyline — auto-refreshed daily" />
+
+<br>
+
+<p align="center"><b><code>rajashekhar@github ~ $ ./trophy-hall.sh</code></b></p>
+<img src="./trophies.svg" width="860" alt="Rajashekhar's Verified Honors & Trophies" />
+
+<br>
+
+<p align="center"><b><code>rajashekhar@github ~ $ ./lofi-player.sh --stream</code></b></p>
+<img src="./music-deck.svg" width="860" alt="Rajashekhar's Lo-Fi Coding Radio Deck" />
 
 <br>
 
