@@ -61,7 +61,7 @@ def span(s):
     return f'{short(s["start"])} – {short(s["end"])}' if s["length"] else "—"
 
 
-data = json.load(open(SRC))
+data = json.load(open(SRC, encoding="utf-8"))
 cur, lng, best = data["current_streak"], data["longest_streak"], data["best_day"]
 n_days = len(data["days"])
 
@@ -164,5 +164,5 @@ for i, m in enumerate(monthly):
 
 parts.append('</svg>')
 svg = "".join(parts)
-open(OUT, "w").write(svg)
+open(OUT, "w", encoding="utf-8").write(svg)
 print(f"wrote {OUT}: {W} x {H}, {len(svg)//1024} KB")

@@ -13,7 +13,7 @@ def get_data(user):
     # so this graph and stats.svg always agree on the numbers
     snap = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "contributions.json")
     if os.path.exists(snap):
-        d = json.load(open(snap))
+        d = json.load(open(snap, encoding="utf-8"))
         if d.get("username", "").lower() == user.lower() and all("level" in x for x in d["days"]):
             return {"contributions": d["days"], "total": {"lastYear": d["total_contributions"]}}
     url = f"https://github-contributions-api.jogruber.de/v4/{user}?y=last"
@@ -85,5 +85,5 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewB
 <text class="total" x="{LEFT}" y="{H-6}">{total:,} contributions in the last year</text>
 </svg>'''
 
-open(OUT, "w").write(svg)
+open(OUT, "w", encoding="utf-8").write(svg)
 print(f"Wrote {OUT}: {n} days, {total:,} contributions, {len(svg)//1024} KB")
